@@ -18,24 +18,24 @@ export default function App() {
             </div>
             <menu className="navbar-nav">
                 <li className="nav-item">
-                <a className="nav-link" href="index.html">
+                <NavLink className="nav-link" to="index">
                     Home
-                </a>
+                </NavLink>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="play.html">
+                <NavLink className="nav-link" to="play">
                     Play
-                </a>
+                </NavLink>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="scores.html">
+                <NavLink className="nav-link" to="scores">
                     Scores
-                </a>
+                </NavLink>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="about.html">
+                <NavLink className="nav-link" to="about">
                     About
-                </a>
+                </NavLink>
                 </li>
             </menu>
             </nav>
